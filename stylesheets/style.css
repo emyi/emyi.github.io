@@ -1,0 +1,106 @@
+.navbar-right {
+	position: relative;
+	margin-right: 10vw;
+	top: 3.5vh;
+}
+
+.navbar-right li a:hover {
+	background-color: #2C2C2C;
+	color: #FF0044;
+}
+.navbar-right li a {
+	color: white;
+}
+.navbar {
+	padding-bottom: 5vh;
+	margin-bottom: 0px;
+	background-color: #161616;
+}
+
+.jumbotron {
+	padding-left: 10vw;
+	padding-right: 10vw;
+	background-color: #313131;
+}
+.jumbotron h1 {
+	padding-bottom: 5vh;
+	color: white;
+}
+.jumbotron p {
+	color: white;
+	margin-bottom: 5vh;
+}
+.about-me {
+	padding-left: 0px;
+}
+.about-me .col-sm-3 {
+	padding-left: 0px;
+}
+.profile-pic {
+	padding-left: 0px;
+}
+.call-to-action {
+	background-color: #FF0044;
+	border: none;
+	margin-top: 2vh;
+}
+.call-to-action:hover {
+	background-color: #FF0044;
+}
+.projects {
+	padding-left: 15vw;
+	padding-right: 15vw;
+	margin-bottom: 10vh;
+}
+.project-image {
+	margin-top: 4vh;
+	padding-left: 0px;
+}
+a {
+	color: #333;
+}
+.gh-link {
+	color: #333;
+}
+.technology {
+	border-radius: 2px;
+	font-size: 15px;
+	margin: 5px;
+	padding: 1px;
+	background-color: #FF0044;
+	color: white;
+}
+/*for desktop when it's 500px or bigger*/
+@media (min-width: 500px) {
+	.navbar-inverse .navbar-brand {
+		color: white;
+	}
+	.name {
+		font-size: 5vh;
+		margin-left: 10vw;
+	}
+	.title {
+		color: white;
+		position: absolute;
+		left: 8.9vw;
+		top: 5vh;
+		font-size: 3vh;
+	}
+}
+
+/*for mobile when it's 500px or smaller*/
+@media (max-width: 500px) {
+	.navbar-inverse .navbar-brand {
+		color: white;
+	}
+	.name {
+		color: white;
+		font-size: 5vh;
+	}
+	.title {
+		color: white;
+		position: absolute;
+		top: 3.75vh;
+		font-size: 2.3vh;
+	}
+}
