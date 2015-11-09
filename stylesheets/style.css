@@ -55,6 +55,7 @@
 .project-image {
 	margin-top: 4vh;
 	padding-left: 0px;
+	border: solid;
 }
 a {
 	color: #333;
