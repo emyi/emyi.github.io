@@ -4,12 +4,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Eric's Portfolio Site</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="./js/main.js"></script>
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-static-top">
+	<nav class="navbar navbar-inverse navbar-static-top" id="top">
 		<div class="row">
 			<div>
 				<strong class="navbar-brand name">Eric Yi</strong>
@@ -19,7 +21,7 @@
 				<ul class="nav nav-pills navbar-right links">
 					<li role="presentation"><a href="https://github.com/emyi">Github</a></li>
 					<li role="presentation"><a href="https://www.linkedin.com/in/ericmyi">LinkedIn</a></li>
-					<li role="presentation"><a href="#">Projects</a></li>
+					<li role="presentation"><a href="#projects" class="scroll">Projects</a></li>
 				</ul>
 			</div>
 		</div>
@@ -37,7 +39,7 @@
 		</div>
 	</div>
 
-	<div class="container projects">
+	<div class="container projects" id="projects">
 		<div class="col-sm-6">
 			<img src="./images/lol-stat-tracker.png" class="img-responsive project-image" alt="Responsive image">
 		</div>
@@ -116,5 +118,8 @@
 			</div>
 		</div>
 	</div>
+	
+	<center><a href="#top" class="scroll">Top</a></center>
+	
 </body>
 </html>

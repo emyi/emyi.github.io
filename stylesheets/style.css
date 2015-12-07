@@ -71,6 +71,11 @@ a {
 	background-color: #FF0044;
 	color: white;
 }
+
+#return-top {
+	text-align: center;
+	font-weight: bold;
+}
 /*for desktop when it's 500px or bigger*/
 @media (min-width: 500px) {
 	.navbar-inverse .navbar-brand {
