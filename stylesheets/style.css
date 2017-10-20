@@ -1,22 +1,29 @@
-.navbar-right {
-	position: relative;
-	margin-right: 10vw;
-	top: 3.5vh;
-}
-
-.navbar-right li a:hover {
+.navbar li a:hover {
 	background-color: #2C2C2C;
 	color: #FF0044;
 }
-.navbar-right li a {
+.navbar li a {
 	color: white;
+	font-size: 1.3em;
 }
 .navbar {
+	padding-top: 5vh;
 	padding-bottom: 5vh;
 	margin-bottom: 0px;
 	background-color: #161616;
 }
 
+.navbar .name{
+	font-size: 4em;
+}
+
+.navbar .occupation{
+	font-size: 1.5em;
+}
+
+.navbar .links {
+	padding: 30px 0;
+}
 .jumbotron {
 	padding-left: 10vw;
 	padding-right: 10vw;
@@ -25,6 +32,7 @@
 .jumbotron h1 {
 	padding-bottom: 5vh;
 	color: white;
+	font-size: 2.8em;
 }
 .jumbotron p {
 	color: white;
@@ -42,7 +50,7 @@
 .call-to-action {
 	background-color: #FF0044;
 	border: none;
-	margin-top: 2vh;
+	margin-top: 5vh;
 }
 .call-to-action:hover {
 	background-color: #FF0044;
@@ -76,22 +84,11 @@ a {
 	text-align: center;
 	font-weight: bold;
 }
-/*for desktop when it's 500px or bigger*/
-@media (min-width: 500px) {
-	.navbar-inverse .navbar-brand {
-		color: white;
-	}
-	.name {
-		font-size: 5vh;
-		margin-left: 10vw;
-	}
-	.title {
-		color: white;
-		position: absolute;
-		left: 8.9vw;
-		top: 5vh;
-		font-size: 3vh;
-	}
+#top {
+	color: #fff;
+}
+.navbar-inverse .navbar-brand {
+	color: white;
 }
 
 /*for mobile when it's 500px or smaller*/
@@ -99,14 +96,10 @@ a {
 	.navbar-inverse .navbar-brand {
 		color: white;
 	}
-	.name {
-		color: white;
-		font-size: 5vh;
+	.nav-pills>li {
+		float: none;
 	}
-	.title {
-		color: white;
-		position: absolute;
-		top: 3.75vh;
-		font-size: 2.3vh;
+	.navbar .links {
+		padding: 0;
 	}
 }

@@ -12,18 +12,22 @@
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-static-top" id="top">
-		<div class="row">
-			<div>
-				<strong class="navbar-brand name">Eric Yi</strong>
-				<p class="navbar-brand title">Web Developer</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-xs-6">
+					<strong class="name">Eric Yi</strong><br>
+					<strong class="occupation">Web Developer</strong>
+				</div>
+				
+				<div class="col-md-6 col-xs-6 links">
+					<ul class="nav nav-pills pull-right">
+						<li role="presentation"><a href="https://github.com/emyi">Github</a></li>
+						<li role="presentation"><a href="https://www.linkedin.com/in/ericmyi">LinkedIn</a></li>
+						<li role="presentation"><a href="#projects" class="scroll">Projects</a></li>
+					</ul>
+				</div>
 			</div>
-			<div>
-				<ul class="nav nav-pills navbar-right links">
-					<li role="presentation"><a href="https://github.com/emyi">Github</a></li>
-					<li role="presentation"><a href="https://www.linkedin.com/in/ericmyi">LinkedIn</a></li>
-					<li role="presentation"><a href="#projects" class="scroll">Projects</a></li>
-				</ul>
-			</div>
+			
 		</div>
 	</nav>
 	<div class="jumbotron">
@@ -34,12 +38,33 @@
 				<p><a class="btn btn-primary btn-lg call-to-action" href="https://www.linkedin.com/in/ericmyi" role="button">LinkedIn</a></p>
 			</div>
 			<div class="col-sm-9">
-				<p>Web developer with 3 years of previous experience in the travel industry. My experience working in tour and travel has given me the skills not only to gain user satisfaction and be team-oriented, but to also be able to think about the users during the development process of my app. Completed my WDI program and gained the skill-sets needed to succeed in this industry.</p>
+				<p>Web developer with 2 years of experience developing and designing websites and web applications.  Experienced in all stages of the development cycle for full stack web projects. Leverage analytical, technical, and problem-solving skills to create dynamic websites and apps.</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container projects">
+		<div class="col-sm-6">
+			<img src="./images/erics-number-reporting.png" class="img-responsive project-image" alt="Responsive image">
+		</div>
+		<div class="col-sm-6">
+			<a href="http://erics-number-reporting.bitballoon.com"><h1>Numbers Reporting App <span><a href="https://github.com/emyi/numbers-app"><i class="fa fa-github gh-link"></i></a></span></h1></a>
+			<p>Numbers reporting app that allows user to CRUD various analytical data. Users are also able to visualize their data in a nice pie chart allowing them to compare how one product, brand, or network is doing against one another.</p>
+			<div class="row">
+				<div class="col-sm-8 technologies">
+					<strong class="technology">MySql</strong>
+					<strong class="technology">HTML</strong>
+					<strong class="technology">CSS</strong>
+					<strong class="technology">Javascript</strong>
+					<strong class="technology">Bootstrap</strong>
+					<strong class="technology">AngularJS</strong>
+					<strong class="technology">PHP</strong>
+				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="container projects" id="projects">
+	<div class="container projects">
 		<div class="col-sm-6">
 			<img src="./images/lol-stat-tracker.png" class="img-responsive project-image" alt="Responsive image">
 		</div>
